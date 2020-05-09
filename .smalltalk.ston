@@ -1,8 +1,8 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'TaskItForkIt',
-      #directory : '',
+      #baseline : 'ForkIt',
+      #directory : 'src',
       #platforms : [ #pharo ]
     }
   ],
