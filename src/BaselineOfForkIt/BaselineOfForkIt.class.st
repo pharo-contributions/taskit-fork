@@ -13,8 +13,6 @@ BaselineOfForkIt >> baseline: spec [
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'ParametrizedTests'
-					with: [ spec repository: 'github://tesonep/ParametrizedTests' ];
 				baseline: 'Equals'
 					with: [ spec repository: 'github://bouraqadi/PharoMisc' ];
 				baseline: #TaskItArchetype
@@ -24,6 +22,6 @@ BaselineOfForkIt >> baseline: spec [
 				package: 'TaskItForkIt-Tests'
 					with: [ spec requires: #(TaskItForkIt) ];
 				package: #TaskItForkIt
-					with: [ spec requires: #(TaskIt TaskItArchetype Equals ParametrizedTests) ].
+					with: [ spec requires: #(TaskIt TaskItArchetype Equals) ].
 			spec group: 'minimal' with: #(#TaskItForkIt 'TaskItForkIt-Tests') ]
 ]
