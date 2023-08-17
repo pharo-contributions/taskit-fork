@@ -16,7 +16,7 @@ BaselineOfForkIt >> baseline: spec [
 				baseline: 'Equals'
 					with: [ spec repository: 'github://bouraqadi/PharoMisc' ];
 				baseline: #TaskItArchetype
-					with: [ spec repository: 'github://pharo-contributions/taskit-archetype' ];
+					with: [ spec repository: 'github://pharo-contributions/taskit-archetypes' ];
 				baseline: #TaskIt
 					with: [ spec repository: 'github://pharo-contributions/taskit' ];
 				package: 'TaskItForkIt-Tests'
